@@ -31,7 +31,7 @@ class HomeController extends Controller
         $socketId = $request->socket_id;
         $channelName = $request->channel_name;
 
-        $pusher = new Pusher('83c9614fa128f8d6027a', '21cc55200cb583256bf2', '497574', [
+        $pusher = new Pusher('9ca40db6915368cfe51e', '721465d01f609393be87', '641035', [
             'cluster' => 'ap2',
             'encrypted' => true
         ]);
